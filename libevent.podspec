@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = "http://twitter.com/liguangming"
   s.ios.deployment_target = "6.0"
   s.source                = { :git => "https://github.com/cute/libevent.git", :tag => "1.0" }
+  s.header_dir            = "event2"
   s.source_files          = "include/**/*.h"
   s.ios.library           = "event"
   s.preserve_paths        = "include", "lib"
